@@ -1,0 +1,40 @@
+#homeheader {
+    background-color: tomato;
+    width: 100%;
+    height: auto;
+}
+#myNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100%;
+}
+.logo {
+    color: blue;
+    font-size: 22px;
+    font-weight: bold;
+}
+.menu {
+    display: flex;
+}
+.menu li {
+    list-style: none;
+    margin: 5px 10px;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.menu a:hover {
+    background-color: white;
+    color: rebeccapurple;
+    padding: 5px;
+    border-radius: 5px;
+}
+#visiontable,
+#visiontable tr,
+#visiontable td,{
+    border: 1px solid red;
+    border-collapse: collapse;
+}
